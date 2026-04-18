@@ -1,0 +1,81 @@
+/* Permet de faire tenir les padding & border dans les largeurs des boites */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Fait tenir les images dans leur parent et enlève l'espacement en bottom */
+img {
+  display: block;
+  max-width:100%;
+}
+/* Enlève les bordures autour du body */
+body {
+  margin:0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+li {
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+li.reussite {
+  background-color: #d4edda;
+  color: #155724;
+  border-left: 5px solid #28a745;
+}
+
+li.echec {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-left: 5px solid #dc3545;
+}
+
+span.moyenne,
+span.max,
+span.min {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
