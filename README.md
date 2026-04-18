@@ -158,4 +158,54 @@ Alice, Charlie, Fiona, Gabriel
 - Utilise **`console.log()`** après chaque étape pour vérifier que ça fonctionne
 - Si quelque chose ne s'affiche pas, commence par vérifier que tu as bien récupéré le bon élément du DOM
 
+# 🎁 5 pistes de bonus
+
+---
+
+## 1. 🔤 Trier les élèves par note
+
+Utilise **`.sort()`** pour afficher le classement de la classe du meilleur au moins bon.
+
+> Notions : `.sort()`, logique de comparaison
+
+---
+
+## 2. 🎨 Une barre de progression visuelle
+
+Pour chaque élève, affiche une barre colorée dont la largeur correspond au pourcentage obtenu.
+
+> Notions : manipulation du style CSS en JS, `element.style.width`
+
+---
+
+## 3. 📊 Répartition par mention
+
+Classe chaque élève dans une catégorie selon sa note :
+
+```
+< 10       →  Insuffisant
+10 à 12    →  Passable
+12 à 14    →  Assez bien
+14 à 16    →  Bien
+≥ 16       →  Très bien
+```
+
+> Notions : conditions imbriquées, `.map()` ou boucle `for`
+
+---
+
+## 4. ➕ Ajouter un élève via un formulaire
+
+Ajoute un formulaire HTML qui permet de saisir un prénom et une note, et met à jour l'affichage en temps réel.
+
+> Notions : événement `submit`, `preventDefault()`, manipulation du DOM, re-render
+
+---
+
+## 5. 💾 Sauvegarder les données dans le navigateur
+
+Stocke les élèves et leurs notes dans le **localStorage** pour qu'ils persistent même après un rechargement de la page.
+
+> Notions : `localStorage.setItem()`, `localStorage.getItem()`, `JSON.stringify()`, `JSON.parse()`
+
 **Bonne chance ! 💪**
