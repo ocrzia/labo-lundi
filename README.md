@@ -23,10 +23,6 @@ projet-notes/
 
 - Le fichier **HTML** est complet, tu n'as pas à le modifier
 - Le fichier **CSS** est complet, tu n'as pas à le modifier
-- Le fichier **script.js** contient :
-  - Les données de départ (élèves + notes)
-  - La récupération des éléments du DOM
-  - Des commentaires qui guident chaque étape
 
 **Ton travail = compléter uniquement le fichier `script.js`**
 
